@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.calendar {
+  position: relative;
+  width: 100%;
+  height: 100%; 
+}
+
+.event {
+  position: absolute;
+  background-color: rgba(0, 123, 255, 0.5);
+  border: 1px solid #007bff;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  line-height: normal;
+}
